@@ -42,7 +42,7 @@ LOGO.PHP_EOL;
         return $code. " - ".$description.PHP_EOL;
     }
 
-    public function AskToAnotherCode()
+    public function AskToAnotherCode(): bool
     {
         do{
             $question = readline("Do you want search next Code? (y/n)");
